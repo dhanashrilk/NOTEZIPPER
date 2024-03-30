@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
+
+.mainback {
+  min-height: 93vh;
+  display: flex;
+  padding: 10px 0;
+}
+.page {
+  width: 100%;
+}
+.heading {
+  font-size: 60px;
+  font-family: "Sofia", cursive;
+  font-weight: 400;
+  font-style: normal;
+  padding: 5px 10px;
+}
+@media (max-width: 600px) {
+  .heading {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+  }
+}
